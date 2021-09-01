@@ -1,0 +1,329 @@
+#!/usr/bin/env python3
+import os
+import sys
+import gzip
+import argparse
+import subprocess
+from Bio import SeqIO
+
+usage = """
+Description
+
+    Fasta Kit for dealing with fasta file, including name modification,
+    filtering sequences by length, format changes, subfiles retrevied, etc.
+    I include all kinds of tools as possible as I can.
+
+
+Usage
+    # select sequences which contain 'HOMO' in ID
+    python3 {0}  -n HOMO -o output.fa test.fa
+    # add a name 'prefix' to name ID for each sequence
+    python3 {0}  -ap HOMO -o output.fa test.fa
+    # filtering sequence by length (>= 100bp)
+    python3 {0}  -lgt 100 -o output.fa test.fa
+    # filtering sequence by length (>= 100 and <= 150)
+    python3 {0}  -lgt 100 -lle 150 -o output.fa test.fa
+    # aligned sequence to unaligned
+    python3 {0}  -a2u  -o output.fa test.fa
+    # cut sequence into [INT] files
+    python3 {0}  -cutf 10 -o outdir test.fa
+
+""".format(sys.argv[0])
+
+parser = argparse.ArgumentParser(
+    description=usage,
+    formatter_class=argparse.RawTextHelpFormatter)
+
+parser.add_argument('fasta', metavar='<File>', type=str,
+                    help="input fasta file")
+
+parser.add_argument('-n', metavar='<STR>', type=str,
+                    dest='name_exact', help="target ID exactally")
+
+parser.add_argument('-ex', metavar='<STR>', type=str,
+                    dest='name_excluded', help="excluded name")
+
+parser.add_argument('-rg', metavar='<STR>', type=str,
+                    dest='name_regx', help="target regx word to find sequences")
+
+parser.add_argument('-nl', metavar='FILE', type=str,
+                    dest='name_list', help="selecting sequences by a ID list")
+
+parser.add_argument('-exl', metavar='FILE', type=str,
+                    dest='excluded_list', help="selecting sequences by an excluding list")
+
+parser.add_argument('-rgl', metavar='FILE', type=str,
+                    dest='regx_list', help="selecting sequences by a regular expression list")
+
+parser.add_argument('-ap', metavar='<STR>', type=str,
+                    dest='add_prefix', help="add a specific prefix to ID")
+
+parser.add_argument('-lgt', metavar='<INT>', type=int,
+                    dest='length_gt', help="deal with by length, select sequences by larger than [INT] bp")
+
+parser.add_argument('-lle', metavar='<INT>', type=int,
+                    dest='length_le', help="deal with by length, select sequences by smaller than [INT] bp")
+
+parser.add_argument('-a2u', action="store_true", dest='dealign',
+                    help="change format, aligned sequence to unaligned")
+
+parser.add_argument('-rw', action="store_true", dest='remove_warp',
+                    help="change format, multi-line to single line")
+
+parser.add_argument('-tr', action="store_true", dest='translate',
+                    help="translate fasta into protein (CDS only)")
+
+parser.add_argument('-codon', type=int, default=1,
+                    dest='codon', help="codon table usage (CDS only, with -tr)")
+
+parser.add_argument('-cutf', metavar='<INT>', type=int,
+                    dest='cutbyfiles', help="cut fasta into files by file number")
+
+parser.add_argument('-cuts', metavar='<INT>', type=int,
+                    dest='cutbyseqs', help="cut fasta into files by specific sequence number")
+
+parser.add_argument('-o', metavar='<STR>', type=str,
+                    dest='output', help="output file or outdir for -cutf/-cuts")
+
+parser.add_argument('-z', action="store_true",
+                    dest='outzip', help="output a gzip type file")
+
+parser.add_argument('-sta', action="store_true",
+                    dest='statistic', help="basic statistic of fasta")
+
+if len(sys.argv) == 1:
+    parser.print_help()
+    parser.exit()
+
+args = parser.parse_args()
+
+
+def check_options(options):
+    checked = 0
+    for o in options:
+        if o:
+            checked += 1
+    return checked
+
+def smart_open(file, opera):
+    if opera == 'r':
+        if os.path.exists(file) ==False:
+            print("Can not open file {}".format(file))
+            exit()
+        else:
+            if file.endswith(".gz"):
+                out = gzip.open(file, 'rt')
+            else:
+                out = open(file, 'r')
+    elif opera == 'w':
+        if file.endswith(".gz"):
+            out = gzip.open(file, 'wt')
+        else:
+            out = open(file, 'w')
+    return out
+
+def read_fasta(fp):
+    name, seq = None, []
+    for line in fp:
+        line = line.rstrip()
+        if line.startswith(">"):
+            if name:
+                yield (name.replace(">", ""), '\n'.join(seq))
+            name, seq = line, []
+        else:
+            seq.append(line)
+    if name:
+        yield (name.replace(">", ""), '\n'.join(seq))
+
+def get_target(f):
+    target_set = []
+    with open(f, 'r') as fh:
+        for i in fh:
+            target_set.append(i.strip())
+    return target_set
+
+def workoutNumber(total_seq_number, file_number):
+    #a = total_seq_number % file_number
+    b = total_seq_number // file_number
+    return b
+
+def select_option(seq, name_exact, name_list, name_excluded, excluded_list, name_regx,
+                  regx_list, length_gt, length_le):
+    (name, sequence) = seq
+    keep_or_not = 1
+    if name_exact and (name != name_exact):
+        keep_or_not -= 1
+    if name_excluded and (name == name_excluded):
+        keep_or_not -= 1
+    if name_regx and name_regx not in name:
+        keep_or_not -= 1
+    if name_list:
+        #print(get_target(name_list))
+        if name not in get_target(name_list):
+            keep_or_not -= 1
+    if excluded_list:
+        if name in get_target(excluded_list):
+            keep_or_not -= 1
+    if regx_list:
+        tmp = 0
+        for t in get_target(regx_list):
+            if t not in name:
+                tmp += 1
+        if tmp == len(get_target(regx_list)):
+            keep_or_not -= 1
+
+    if keep_or_not > 0:
+        length = len(sequence)
+        if length_gt and length_le:
+            if length_gt > length_le:
+                print("ERROR: {} is larger than {}".format(length_gt, length_le))
+                exit()
+            else:
+                if length < length_gt or length > length_le:
+                    keep_or_not -= 1
+        elif length_gt and length < length_gt:
+            keep_or_not -= 1
+        elif length_le and length > length_le:
+            keep_or_not -= 1
+
+        if keep_or_not > 0:
+            return True
+        else:
+            return False
+    else:
+        return False
+
+def format_fasta(seq, add_prefix, remove_warp, dealign):
+    (name, sequence) = seq
+    if add_prefix:
+        name = name + "_" + add_prefix
+    if remove_warp:
+        sequence = sequence.replace("\n", "")
+    if dealign:
+        sequence = sequence.replace("-", "")
+    new_seq = ">" + name + "\n" + sequence
+    return new_seq
+
+def translate_dnaseq(seq, codon):
+# ---------translate_dnaseq------------#
+    (name, sequence) = seq
+    l_dna = len(sequence)
+    if l_dna % 3 != 0:
+        print("seq {}'s lenght is not tripple".format(name))
+        return False
+    else:
+        coding_dna = Seq(sequence, generic_dna)
+        protein = coding_dna.translate(table=codon)
+        return protein
+
+def access(lens):
+    summary = 0
+    for i in lens:
+        summary += i
+    seq_num = len(lens)
+    average = summary / seq_num
+    return seq_num, summary, average
+
+def main(args):
+    if not (args.cutbyseqs or args.cutbyfiles):
+        fh_out = smart_open(args.output, 'w')
+    if args.statistic:
+        state = []
+        with smart_open(args.fasta, 'r') as fh:
+            for i in read_fasta(fh):
+                state.append(len(i[1]))
+        longest = max(state)
+        shortest = min(state)
+        (seq_num, total_base, average_len) = access(state)
+        print("longest_seq:\t{}".format(longest))
+        print("shortest_seq:\t{}".format(shortest))
+        print("total_seq:\t{}".format(seq_num))
+        print("total_base:\t{}".format(total_base))
+        print("average_length:\t{}".format(average_len))
+    elif args.translate:
+        with smart_open(args.fasta, 'r') as fh:
+            for i in read_fasta(fh):
+                protein = translate_dnaseq(i, args.codon)
+                if protein:
+                    print(">{}\n{}".format(i[0], protein), file=fh_out)
+
+    else:
+
+        seq_container = [] # if args.cutbyseqs or args.cutbyfiles
+        with smart_open(args.fasta, 'r') as fh:
+            for i in read_fasta(fh):
+                if args.statistic:
+                    state.append(len(i[1]))
+                # filter sequence by different conditions
+                sign = select_option(i, args.name_exact, args.name_list, args.name_excluded,
+                                 args.excluded_list, args.name_regx, args.regx_list,
+                                 args.length_gt, args.length_le)
+                # change format
+                if sign == True:
+                    new_seq = format_fasta(i, args.add_prefix, args.remove_warp, args.dealign)
+                    if args.cutbyseqs or args.cutbyfiles:
+                        seq_container.append(new_seq)
+                    else:
+                        print(new_seq, file=fh_out)
+                else:
+                    next
+
+        if args.cutbyseqs:
+            average_seq_number = args.cutbyseqs
+        if args.cutbyfiles:
+            countseq_cmd = "grep '>' -c " + args.fasta
+            cmd_result = subprocess.check_output(countseq_cmd,shell=True)
+            total_number = int(cmd_result.decode('utf-8'))
+            average_seq_number = workoutNumber(total_number, args.cutbyfiles)
+        if args.cutbyseqs or args.cutbyfiles:
+            outdir = os.path.abspath(args.output + "_cut")
+            if os.path.exists(outdir) == False:
+                os.mkdir(outdir)
+            suffix = 1
+            tmp = average_seq_number
+            while tmp < len(seq_container) and suffix < args.cutbyfiles:
+                outsubfile = outdir + "/seq_{}.fa".format(suffix)
+                if args.outzip == True:
+                    outsubfile = outdir + "/seq_{}.fa.gz".format(suffix)
+                with smart_open(outsubfile, 'w') as fh:
+                    fh.write("\n".join(seq_container[tmp-average_seq_number:tmp]))
+                suffix += 1
+                tmp += average_seq_number
+            # the last part
+            outsubfile = outdir + "/seq_{}.fa".format(suffix)
+            if args.outzip == True:
+                outsubfile = outdir + "/seq_{}.fa.gz".format(suffix)
+            with smart_open(outsubfile, 'w') as fh:
+                fh.write("\n".join(seq_container[tmp-average_seq_number:len(seq_container)]))
+        else:
+            fh_out.close()
+
+if __name__ == '__main__':
+    if args.translate and check_options([args.name_exact, args.name_list, args.name_excluded,
+                                       args.excluded_list, args.name_regx, args.regx_list,
+                                       args.length_gt, args.length_le, args.cutbyseqs,
+                                        args.cutbyfiles, args.statistic]):
+        print("-tr is conflict with others" )
+        exit()
+    if args.statistic and check_options([args.name_exact, args.name_list, args.name_excluded,
+                                       args.excluded_list, args.name_regx, args.regx_list,
+                                       args.length_gt, args.length_le, args.cutbyseqs,
+                                        args.cutbyfiles, args.translate]):
+        print("-sta is conflict with others" )
+        exit()
+
+
+    if args.output == None and (args.cutbyseqs or args.cutbyfiles):
+        args.output = "output"
+    elif args.output == None:
+        if args.outzip == True:
+            args.output = "output.fa.gz"
+        else:
+            args.output = "output.fa"
+
+    if args.cutbyfiles == 1:
+        print("-cutf 1 is meaningless! I will do nothing!")
+        exit()
+    main(args)
+
+

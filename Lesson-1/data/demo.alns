@@ -1,0 +1,1367 @@
+/Users/yangchentao/Desktop/Work/Issues_within_group/2021年小组培训/data/ref.mito.fa /Users/yangchentao/Desktop/Work/Issues_within_group/2021年小组培训/data/test.mito.fa
+
+============================================================
+-- Alignments between Ref and Scaffold1
+
+-- BEGIN alignment [ +1 1 - 16569 | +1 1 - 16515 ]
+
+                  10|       20|       30|       40|
+1          gatcacaggtctatcaccctattaaccactcacgggagctctccatgca
+1          gatcacaggtctatcaccctattaaccactcacgggagctc......ca
+                                                    ^^^^^^  
+                  10|       20|       30|       40|
+50         tttggtattttcgtctggggggtatgcacgcgatagcattgcgagacgc
+44         tttggtattttcgtctggggggtatgcacgcgatagcattgcgagacgc
+                                                            
+                  10|       20|       30|       40|
+99         tggagccggagcaccctatgtcgcagtatctgtctttgattcctgcctc
+93         tggagccggagcaccctatgtcgcagtatctgtctttgattcctgcctc
+                                                            
+                  10|       20|       30|       40|
+148        atcctattatttatcgcacctacgttcaatattacaggcgaacatactt
+142        atcctattatttatcgcacctacgttcaatattacaggcgaacatactt
+                                                            
+                  10|       20|       30|       40|
+197        actaaagtgtgttaattaattaatgcttgtaggacataataataacaat
+191        actaaagtgtgttaattaattaatgcttgtaggacataataataacaat
+                                                            
+                  10|       20|       30|       40|
+246        tgaatgtctgcacagccactttccacacagacatcataacaaaaaattt
+240        tgaatgtctgcacagccactttccacacagacatcataacaaaaaattt
+                                                            
+                  10|       20|       30|       40|
+295        ccaccaaaccccccctcccccgcttctggccacagcacttaaacacatc
+289        ccaccaaaccccccctcccccgcttctggccacagcacttaaacacatc
+                                                            
+                  10|       20|       30|       40|
+344        tctgccaaaccccaaaaacaaagaaccctaacaccagcctaaccagatt
+338        tctgccaaaccccaaaaacaaagaaccctaacaccagcctaaccagatt
+                                                            
+                  10|       20|       30|       40|
+393        tcaaattttatcttttggcggtatgcacttttaacagtcaccccccaac
+387        tcaaattttatcttttggcggtatgcacttttaacagtcaccccccaac
+                                                            
+                  10|       20|       30|       40|
+442        taacacattattttcccctcccactcccatactactaatctcatcaata
+436        taacacattattttcccctcccactcccatactactaatctcatcaata
+                                                            
+                  10|       20|       30|       40|
+491        caacccccgcccatcctacccagcacacacacaccgctgctaaccccat
+485        caacccccgcccatcctacccagcacacacacaccgctgctaaccccat
+                                                            
+                  10|       20|       30|       40|
+540        accccgaaccaaccaaaccccaaagacaccccccacagtttatgtagct
+534        accccgaaccaaccaaaccccaaagacaccccccacagtttatgtagct
+                                                            
+                  10|       20|       30|       40|
+589        tacctcctcaaagcaatacactgaaaatgtttagacgggctcacatcac
+583        tacctcctcaaagcaatacactgaaaatgtttagacgggctcacatcac
+                                                            
+                  10|       20|       30|       40|
+638        cccataaacaaataggtttggtcctagcctttctattagctcttagtaa
+632        cccataaacaaataggtttggtcctagcctttctattagctcttagtaa
+                                                            
+                  10|       20|       30|       40|
+687        gattacacatgcaagcatccccgttccagtgagttcaccctctaaatca
+681        gattacacatgcaagcatccccgttccagtgagttcaccctctaaatca
+                                                            
+                  10|       20|       30|       40|
+736        ccacgatcaaaaggaacaagcatcaagcacgcagcaatgcagctcaaaa
+730        ccacgatcaaaaggaacaagcatcaagcacgcagcaatgcagctcaaaa
+                                                            
+                  10|       20|       30|       40|
+785        cgcttagcctagccacacccccacgggaaacagcagtgattaaccttta
+779        cgcttagcctagccacacccccacgggaaacagcagtgattaaccttta
+                                                            
+                  10|       20|       30|       40|
+834        gcaataaacgaaagtttaactaagctatactaaccccagggttggtcaa
+828        gcaataaacgaaagtttaactaagctatactaaccccagggttggtcaa
+                                                            
+                  10|       20|       30|       40|
+883        tttcgtgccagccaccgcggtcacacgattaacccaagtcaatagaagc
+877        tttcgtgccagccaccgcggtcacacgattaacccaagtcaatagaagc
+                                                            
+                  10|       20|       30|       40|
+932        cggcgtaaagagtgttttagatcaccccctccccaataaagctaaaact
+926        cggcgtaaagagtgttttagatcaccccctccccaataaagctaaaact
+                                                            
+                  10|       20|       30|       40|
+981        cacctgagttgtaaaaaactccagttgacacaaaatagactacgaaagt
+975        cacctgagttgtaaaaaactccagttgacacaaaatagactacgaaagt
+                                                            
+                  10|       20|       30|       40|
+1030       ggctttaacatatctgaacacacaatagctaagacccaaactgggatta
+1024       ggctttaacatatctgaacacacaatagctaagacccaaactgggatta
+                                                            
+                  10|       20|       30|       40|
+1079       gataccccactatgcttagccctaaacctcaacagttaaatcaacaaaa
+1073       gataccccactatgcttagccctaaacctcaacagttaaatcaacaaaa
+                                                            
+                  10|       20|       30|       40|
+1128       ctgctcgccagaacactacgagccacagcttaaaactcaaaggacctgg
+1122       ctgctcgccagaacactacgagccacagcttaaaactcaaaggacctgg
+                                                            
+                  10|       20|       30|       40|
+1177       cggtgcttcatatccctctagaggagcctgttctgtaatcgataaaccc
+1171       cggtgcttcatatccctctagaggagcctgttctgtaatcgataaaccc
+                                                            
+                  10|       20|       30|       40|
+1226       cgatcaacctcaccacctcttgctcagcctatataccgccatcttcagc
+1220       cgatcaacctcaccacctcttgctcagcctatataccgccatcttcagc
+                                                            
+                  10|       20|       30|       40|
+1275       aaaccctgatgaaggctacaaagtaagcgcaagtacccacgtaaagacg
+1269       aaaccctgatgaaggctacaaagtaagcgcaagtacccacgtaaagacg
+                                                            
+                  10|       20|       30|       40|
+1324       ttaggtcaaggtgtagcccatgaggtggcaagaaatgggctacattttc
+1318       ttaggtcaaggtgtagcccatgaggtggcaagaaatgggctacattttc
+                                                            
+                  10|       20|       30|       40|
+1373       taccccagaaaactacgatagcccttatgaaacttaagggtcgaaggtg
+1367       taccccagaaaactacgatagcccttatgaaacttaagggtcgaaggtg
+                                                            
+                  10|       20|       30|       40|
+1422       gatttagcagtaaactaagagtagagtgcttagttgaacagggccctga
+1416       gatttagcagtaaactaagagtagagtgcttagttgaacagggccctga
+                                                            
+                  10|       20|       30|       40|
+1471       agcgcgtacacaccgcccgtcaccctcctcaagtatacttcaaaggaca
+1465       agcgcgtacacaccgcccgtcaccctcctcaagtatacttcaaaggaca
+                                                            
+                  10|       20|       30|       40|
+1520       tttaactaaaacccctacgcatttatatagaggagacaagtcgtaacat
+1514       tttaactaaaacccctacgcatttatatagaggagacaagtcgtaacat
+                                                            
+                  10|       20|       30|       40|
+1569       ggtaagtgtactggaaagtgcacttggacgaaccagagtgtagcttaac
+1563       ggtaagtgtactggaaagtgcacttggacgaaccagagtgtagcttaac
+                                                            
+                  10|       20|       30|       40|
+1618       acaaagcacccaacttacacttaggagatttcaacttaacttgaccgct
+1612       acaaagcacccaacttacacttaggagatttcaacttaacttgaccgct
+                                                            
+                  10|       20|       30|       40|
+1667       ctgagctaaacctagccccaaacccactccaccttactaccagacaacc
+1661       ctgagctaaacctagccccaaacccactccaccttactaccagacaacc
+                                                            
+                  10|       20|       30|       40|
+1716       ttagccaaaccatttacccaaataaagtataggcgatagaaattgaaac
+1710       ttagccaaaccatttacccaaataaagtataggcgatagaaattgaaac
+                                                            
+                  10|       20|       30|       40|
+1765       ctggcgcaatagatatagtaccgcaagggaaagatgaaaaattataacc
+1759       ctggcgcaatagatatagtaccgcaagggaaagatgaaaaattataacc
+                                                            
+                  10|       20|       30|       40|
+1814       aagcataatatagcaaggactaacccctataccttctgcataatgaatt
+1808       aagcataatatagcaaggactaacccctataccttctgcataatgaatt
+                                                            
+                  10|       20|       30|       40|
+1863       aactagaaataactttgcaaggagagccaaagctaagacccccgaaacc
+1857       aactagaaataactttgcaaggagagccaaagctaagacccccgaaacc
+                                                            
+                  10|       20|       30|       40|
+1912       agacgagctacctaagaacagctaaaagagcacacccgtctatgtagca
+1906       agacgagctacctaagaacagctaaaagagcacacccgtctatgtagca
+                                                            
+                  10|       20|       30|       40|
+1961       aaatagtgggaagatttataggtagaggcgacaaacctaccgagcctgg
+1955       aaatagtgggaagatttataggtagaggcgacaaacctaccgagcctgg
+                                                            
+                  10|       20|       30|       40|
+2010       tgatagctggttgtccaagatagaatcttagttcaactttaaatttgcc
+2004       tgatagctggttgtccaagatagaatcttagttcaactttaaatttgcc
+                                                            
+                  10|       20|       30|       40|
+2059       cacagaaccctctaaatccccttgtaaatttaactgttagtccaaagag
+2053       cacagaaccctctaaatccccttgtaaatttaactgttagtccaaagag
+                                                            
+                  10|       20|       30|       40|
+2108       gaacagctctttggacactaggaaaaaaccttgtagagagagtaaaaaa
+2102       gaacagctctttggacactaggaaaaaaccttgtagagagagtaaaaaa
+                                                            
+                  10|       20|       30|       40|
+2157       tttaacacccatagtaggcctaaaagcagccaccaattaagaaagcgtt
+2151       tttaacacccatagtaggcctaaaagcagccaccaattaagaaagcgtt
+                                                            
+                  10|       20|       30|       40|
+2206       caagctcaacacccactacctaaaaaatcccaaacatataactgaactc
+2200       caagctcaacacccactacctaaaaaatcccaaacatataactgaactc
+                                                            
+                  10|       20|       30|       40|
+2255       ctcacacccaattggaccaatctatcaccctatagaagaactaatgtta
+2249       ctcacacccaattggaccaatctatcaccctatagaagaactaatgtta
+                                                            
+                  10|       20|       30|       40|
+2304       gtataagtaacatgaaaacattctcctccgcataagcctgcgtcagatt
+2298       gtataagtaacatgaaaacattctcctccgcataagcctgcgtcagatt
+                                                            
+                  10|       20|       30|       40|
+2353       aaaacactgaactgacaattaacagcccaatatctacaatcaaccaaca
+2347       aaaacactgaactgacaattaacagcccaatatctacaatcaaccaaca
+                                                            
+                  10|       20|       30|       40|
+2402       agtcattattaccctcactgtcaacccaacacaggcatgctcataagga
+2396       agtcattattaccctcactgtcaacccaacacaggcatgctcataagga
+                                                            
+                  10|       20|       30|       40|
+2451       aaggttaaaaaaagtaaaaggaactcggcaaatcttaccccgcctgttt
+2445       aaggttaaaaaaagtaaaaggaactcggcaaatcttaccccgcctgttt
+                                                            
+                  10|       20|       30|       40|
+2500       accaaaaacatcacctctagcatcaccagtattagaggcaccgcctgcc
+2494       accaaaaacatcacctctagcatcaccagtattagaggcaccgcctgcc
+                                                            
+                  10|       20|       30|       40|
+2549       cagtgacacatgtttaacggccgcggtaccctaaccgtgcaaaggtagc
+2543       cagtgacacatgtttaacggccgcggtaccctaaccgtgcaaaggtagc
+                                                            
+                  10|       20|       30|       40|
+2598       ataatcacttgttccttaaatagggacctgtatgaatggctccacgagg
+2592       ataatcacttgttccttaaatagggacctgtatgaatggctccacgagg
+                                                            
+                  10|       20|       30|       40|
+2647       gttcagctgtctcttacttttaaccagtgaaattgacctgcccgtgaag
+2641       gttcagctgtctcttacttttaaccagtgaaattgacctgcccgtgaag
+                                                            
+                  10|       20|       30|       40|
+2696       aggcgggcataacacagcaagacgagaagaccctatggagctttaattt
+2690       aggcgggcataacacagcaagacgagaagaccctatggagctttaattt
+                                                            
+                  10|       20|       30|       40|
+2745       attaatgcaaacagtacctaacaaacccacaggtcctaaactaccaaac
+2739       attaatgcaaacagtacctaacaaacccacaggtcctaaactaccaaac
+                                                            
+                  10|       20|       30|       40|
+2794       ctgcattaaaaatttcggttggggcgacctcggagcagaacccaacctc
+2788       ctgcattaaaaatttcggttggggcgacctcggagcagaacccaacctc
+                                                            
+                  10|       20|       30|       40|
+2843       cgagcagtacatgctaagacttcaccagtcaaagcgaactactatactc
+2837       cgagcagtacatgctaagacttcaccagtcaaagcgaactactatactc
+                                                            
+                  10|       20|       30|       40|
+2892       aattgatccaataacttgaccaacggaacaagttaccctagggataaca
+2886       aattgatccaataacttgaccaacggaacaagttaccctagggataaca
+                                                            
+                  10|       20|       30|       40|
+2941       gcgcaatcctattctagagtccatatcaacaatagggtttacgacctcg
+2935       gcgcaatcctattctagagtccatatcaacaatagggtttacgacctcg
+                                                            
+                  10|       20|       30|       40|
+2990       atgttggatcaggacatcccgatggtgcagccgctattaaaggttcgtt
+2984       atgttggatcaggacatcccgatggtgcagccgctattaaaggttcgtt
+                                                            
+                  10|       20|       30|       40|
+3039       tgttcaacgattaaagtcctacgtgatctgagttcagaccggagtaatc
+3033       tgttcaacgattaaagtcctacgtgatctgagttcagaccggagtaatc
+                                                            
+                  10|       20|       30|       40|
+3088       caggtcggtttctatctacnttcaaattcctccctgtacgaaaggacaa
+3082       caggtcggtttctatctacnttcaaattcctccctgtacgaaaggacaa
+                                                            
+                  10|       20|       30|       40|
+3137       gagaaataaggcctacttcacaaagcgccttcccccgtaaatgatatca
+3131       gagaaataaggcctacttcacaaagcgccttcccccgtaaatgatatca
+                                                            
+                  10|       20|       30|       40|
+3186       tctcaacttagtattatacccacacccacccaagaacagggtttgttaa
+3180       tctcaacttagtattatacccacacccacccaagaacagggtttgttaa
+                                                            
+                  10|       20|       30|       40|
+3235       gatggcagagcccggtaatcgcataaaacttaaaactttacagtcagag
+3229       gatggcagagcccggtaatcgcataaaacttaaaactttacagtcagag
+                                                            
+                  10|       20|       30|       40|
+3284       gttcaattcctcttcttaacaacatacccatggccaacctcctactcct
+3278       gttcaattcctcttcttaacaacatacccatggccaacctcctactcct
+                                                            
+                  10|       20|       30|       40|
+3333       cattgtacccattctaatcgcaatggcattcctaatgcttaccgaacga
+3327       cattgtacccattctaatcgcaatggcattcctaatgcttaccgaacga
+                                                            
+                  10|       20|       30|       40|
+3382       aaaattctaggctatatacaactacgcaaaggccccaacgttgtaggcc
+3376       aaaattctaggctatatacaactacgcaaaggccccaacgttgtaggcc
+                                                            
+                  10|       20|       30|       40|
+3431       cctacgggctactacaacccttcgctgacgccataaaactcttcaccaa
+3425       cctacgggctactacaacccttcgctgacgccataaaactcttcaccaa
+                                                            
+                  10|       20|       30|       40|
+3480       agagcccctaaaacccgccacatctaccatcaccctctacatcaccgcc
+3474       agagcccctaaaacccgccacatctaccatcaccctctacatcaccgcc
+                                                            
+                  10|       20|       30|       40|
+3529       ccgaccttagctctcaccatcgctcttctactatgaacccccctcccca
+3523       ccgaccttagctctcaccatcgctcttctactatgaacccccctcccca
+                                                            
+                  10|       20|       30|       40|
+3578       tacccaaccccctggtcaacctcaacctaggcctcctatttattctagc
+3572       tacccaaccccctggtcaacctcaacctaggcctcctatttattctagc
+                                                            
+                  10|       20|       30|       40|
+3627       cacctctagcctagccgtttactcaatcctctgatcagggtgagcatca
+3621       cacctctagcctagccgtttactcaatcctctgatcagggtgagcatca
+                                                            
+                  10|       20|       30|       40|
+3676       aactcaaactacgccctgatcggcgcactgcgagcagtagcccaaacaa
+3670       aactcaaactacgccctgatcggcgcactgcgagcagtagcccaaacaa
+                                                            
+                  10|       20|       30|       40|
+3725       tctcatatgaagtcaccctagccatcattctactatcaacattactaat
+3719       tctcatatgaagtcaccctagccatcattctactatcaacattactaat
+                                                            
+                  10|       20|       30|       40|
+3774       aagtggctcctttaacctctccacccttatcacaacacaagaacacctc
+3768       aagtggctcctttaacctctccacccttatcacaacacaagaacacctc
+                                                            
+                  10|       20|       30|       40|
+3823       tgattactcctgccatcatgacccttggccataatatgatttatctcca
+3817       tgattactcctgccatcatgacccttggccataatatgatttatctcca
+                                                            
+                  10|       20|       30|       40|
+3872       cactagcagagaccaaccgaacccccttcgaccttgccgaaggggagtc
+3866       cactagcagagaccaaccgaacccccttcgaccttgccgaaggggagtc
+                                                            
+                  10|       20|       30|       40|
+3921       cgaactagtctcaggcttcaacatcgaatacgccgcaggccccttcgcc
+3915       cgaactagtctcaggcttcaacatcgaatacgccgcaggccccttcgcc
+                                                            
+                  10|       20|       30|       40|
+3970       ctattcttcatagccgaatacacaaacattattataataaacaccctca
+3964       ctattcttcatagccgaatacacaaacattattataataaacaccctca
+                                                            
+                  10|       20|       30|       40|
+4019       ccactacaatcttcctaggaacaacatatgacgcactctcccctgaact
+4013       ccactacaatcttcctaggaacaacatatgacgcactctcccctgaact
+                                                            
+                  10|       20|       30|       40|
+4068       ctacacaacatattttgtcaccaagaccctacttctaacctccctgttc
+4062       ctacacaacatattttgtcaccaagaccctacttctaacctccctgttc
+                                                            
+                  10|       20|       30|       40|
+4117       ttatgaattcgaacagcatacccccgattccgctacgaccaactcatac
+4111       ttatgaattcgaacagcatacccccgattccgctacgaccaactcatac
+                                                            
+                  10|       20|       30|       40|
+4166       acctcctatgaaaaaacttcctaccactcaccctagcattacttatatg
+4160       acctcctatgaaaaaacttcctaccactcaccctagcattacttatatg
+                                                            
+                  10|       20|       30|       40|
+4215       atatgtctccatacccattacaatctccagcattccccctcaaacctaa
+4209       atatgtctccatacccattacaatctccagcattccccctcaaacctaa
+                                                            
+                  10|       20|       30|       40|
+4264       gaaatatgtctgataaaagagttactttgatagagtaaataataggagc
+4258       gaaatatgtctgataaaagagttactttgatagagtaaataataggagc
+                                                            
+                  10|       20|       30|       40|
+4313       ttaaacccccttatttctaggactatgagaatcgaacccatccctgaga
+4307       ttaaacccccttatttctaggactatgagaatcgaacccatccctgaga
+                                                            
+                  10|       20|       30|       40|
+4362       atccaaaattctccgtgccacctatcacaccccatcctaaagtaaggtc
+4356       atccaaaattctccgtgccacctatcacaccccatcctaaagtaaggtc
+                                                            
+                  10|       20|       30|       40|
+4411       agctaaataagctatcgggcccataccccgaaaatgttggttataccct
+4405       agctaaataagctatcgggcccataccccgaaaatgttggttataccct
+                                                            
+                  10|       20|       30|       40|
+4460       tcccgtactaattaatcccctggcccaacccgtcatctactctaccatc
+4454       tcccgtactaattaatcccctggcccaacccgtcatctactctaccatc
+                                                            
+                  10|       20|       30|       40|
+4509       tttgcaggcacactcatcacagcgctaagctcgcactgattttttacct
+4503       tttgcaggcacactcatcacagcgctaagctcgcactgattttttacct
+                                                            
+                  10|       20|       30|       40|
+4558       gagtaggcctagaaataaacatgctagcttttattccagttctaaccaa
+4552       gagtaggcctagaaataaacatgctagcttttattccagttctaaccaa
+                                                            
+                  10|       20|       30|       40|
+4607       aaaaataaaccctcgttccacagaagctgccatcaagtatttcctcacg
+4601       aaaaataaaccctcgttccacagaagctgccatcaagtatttcctcacg
+                                                            
+                  10|       20|       30|       40|
+4656       caagcaaccgcatccataatccttctaatagctatcctcttcaacaata
+4650       caagcaaccgcatccataatccttctaatagctatcctcttcaacaata
+                                                            
+                  10|       20|       30|       40|
+4705       tactctccggacaatgaaccataaccaatactaccaatcaatactcatc
+4699       tactctccggacaatgaaccataaccaatactaccaatcaatactcatc
+                                                            
+                  10|       20|       30|       40|
+4754       attaataatcataatagctatagcaataaaactaggaatagcccccttt
+4748       attaataatcataatagctatagcaataaaactaggaatagcccccttt
+                                                            
+                  10|       20|       30|       40|
+4803       cacttctgagtcccagaggttacccaaggcacccctctgacatccggcc
+4797       cacttctgagtcccagaggttacccaaggcacccctctgacatccggcc
+                                                            
+                  10|       20|       30|       40|
+4852       tgcttcttctcacatgacaaaaactagcccccatctcaatcatatacca
+4846       tgcttcttctcacatgacaaaaactagcccccatctcaatcatatacca
+                                                            
+                  10|       20|       30|       40|
+4901       aatctctccctcactaaacgtaagccttctcctcactctctcaatctta
+4895       aatctctccctcactaaacgtaagccttctcctcactctctcaatctta
+                                                            
+                  10|       20|       30|       40|
+4950       tccatcatagcaggcagttgaggtggattaaaccaaacccagctacgca
+4944       tccatcatagcaggcagttgaggtggattaaaccaaacccagctacgca
+                                                            
+                  10|       20|       30|       40|
+4999       aaatcttagcatactcctcaattacccacataggatgaataatagcagt
+4993       aaatcttagcatactcctcaattacccacataggatgaataatagcagt
+                                                            
+                  10|       20|       30|       40|
+5048       tctaccgtacaaccctaacataaccattcttaatttaactatttatatt
+5042       tctaccgtacaaccctaacataaccattcttaatttaactatttatatt
+                                                            
+                  10|       20|       30|       40|
+5097       atcctaactactaccgcattcctactactcaacttaaactccagcacca
+5091       atcctaactactaccgcattcctactactcaacttaaactccagcacca
+                                                            
+                  10|       20|       30|       40|
+5146       cgaccctactactatctcgcacctgaaacaagctaacatgactaacacc
+5140       cgaccctactactatctcgcacctgaaacaagctaacatgactaacacc
+                                                            
+                  10|       20|       30|       40|
+5195       cttaattccatccaccctcctctccctaggaggcctgcccccgctaacc
+5189       cttaattccatccaccctcctctccctaggaggcctgcccccgctaacc
+                                                            
+                  10|       20|       30|       40|
+5244       ggctttttgcccaaatgggccattatcgaagaattcacaaaaaacaata
+5238       ggctttttgcccaaatgggccattatcgaagaattcacaaaaaacaata
+                                                            
+                  10|       20|       30|       40|
+5293       gcctcatcatccccaccatcatagccaccatcaccctccttaacctcta
+5287       gcctcatcatccccaccatcatagccaccatcaccctccttaacctcta
+                                                            
+                  10|       20|       30|       40|
+5342       cttctacctacgcctaatctactccacctcaatcacactactccccata
+5336       cttctacctacgcctaatctactccacctcaatcacactactccccata
+                                                            
+                  10|       20|       30|       40|
+5391       tctaacaacgtaaaaataaaatgacagtttgaacatacaaaacccaccc
+5385       tctaacaacgtaaaaataaaatgacagtttgaacatacaaaacccaccc
+                                                            
+                  10|       20|       30|       40|
+5440       cattcctccccacactcatcgcccttaccacgctactcctacctatctc
+5434       cattcctccccacactcatcgcccttaccacgctactcctacctatctc
+                                                            
+                  10|       20|       30|       40|
+5489       cccttttatactaataatcttatagaaatttaggttaaatacagaccaa
+5483       cccttttatactaataatcttatagaaatttaggttaaatacagaccaa
+                                                            
+                  10|       20|       30|       40|
+5538       gagccttcaaagccctcagtaagttgcaatacttaatttctgtaacagc
+5532       gagccttcaaagccctcagtaagttgcaatacttaatttctgtaacagc
+                                                            
+                  10|       20|       30|       40|
+5587       taaggactgcaaaaccccactctgcatcaactgaacgcaaatcagccac
+5581       taaggactgcaaaaccccactctgcatcaactgaacgcaaatcagccac
+                                                            
+                  10|       20|       30|       40|
+5636       tttaattaagctaagcccttactagaccaatgggacttaaacccacaaa
+5630       tttaattaagctaagcccttactagaccaatgggacttaaacccacaaa
+                                                            
+                  10|       20|       30|       40|
+5685       cacttagttaacagctaagcaccctaatcaactggcttcaatctacttc
+5679       cacttagttaacagctaagcaccctaatcaactggcttcaatctacttc
+                                                            
+                  10|       20|       30|       40|
+5734       tcccgccgccgggaaaaaaggcgggagaagccccggcaggtttgaagct
+5728       tcccgccgccgggaaaaaaggcgggagaagccccggcaggtttgaagct
+                                                            
+                  10|       20|       30|       40|
+5783       gcttcttcgaatttgcaattcaatatgaaaatcacctcggagctggtaa
+5777       gcttcttcgaatttgcaattcaatatgaaaatcacctcggagctggtaa
+                                                            
+                  10|       20|       30|       40|
+5832       aaagaggcctaacccctgtctttagatttacagtccaatgcttcactca
+5826       aaagaggcctaacccctgtctttagatttacagtccaatgcttcactca
+                                                            
+                  10|       20|       30|       40|
+5881       gccattttacctcacccccactgatgttcgccgaccgttgactattctc
+5875       gccattttacctcacccccactgatgttcgccgaccgttgactattctc
+                                                            
+                  10|       20|       30|       40|
+5930       tacaaaccacaaagacattggaacactatacctattattcggcgcatga
+5924       tacaaaccacaaagacattggaacactatacctattattcggcgcatga
+                                                            
+                  10|       20|       30|       40|
+5979       gctggagtcctaggcacagctctaagcctccttattcgagccgagctgg
+5973       gctggagtcctaggcacagctctaagcctccttattcgagccgagctgg
+                                                            
+                  10|       20|       30|       40|
+6028       gccagccaggcaaccttctaggtaacgaccacatctacaacgttatcgt
+6022       gccagccaggcaaccttctaggtaacgaccacatctacaacgttatcgt
+                                                            
+                  10|       20|       30|       40|
+6077       cacagcccatgcatttgtaataatcttcttcatagtaatacccatcata
+6071       cacagcccatgcatttgtaataatcttcttcatagtaatacccatcata
+                                                            
+                  10|       20|       30|       40|
+6126       atcggaggctttggcaactgactagttcccctaataatcggtgcccccg
+6120       atcggaggctttggcaactgactagttcccctaataatcggtgcccccg
+                                                            
+                  10|       20|       30|       40|
+6175       atatggcgtttccccgcataaacaacataagcttctgactcttacctcc
+6169       atatggcgtttccccgcataaacaacataagcttctgactcttacctcc
+                                                            
+                  10|       20|       30|       40|
+6224       ctctctcctactcctgctcgcatctgctatagtggaggccggagcagga
+6218       ctctctcctactcctgctcgcatctgctatagtggaggccggagcagga
+                                                            
+                  10|       20|       30|       40|
+6273       acaggttgaacagtctaccctcccttagcagggaactactcccaccctg
+6267       acaggttgaacagtctaccctcccttagcagggaactactcccaccctg
+                                                            
+                  10|       20|       30|       40|
+6322       gagcctccgtagacctaaccatcttctccttacacctagcaggtgtctc
+6316       gagcctccgtagacctaaccatcttctccttacacctagcaggtgtctc
+                                                            
+                  10|       20|       30|       40|
+6371       ctctatcttaggggccatcaatttcatcacaacaattatcaatataaaa
+6365       ctctatcttaggggccatcaatttcatcacaacaattatcaatataaaa
+                                                            
+                  10|       20|       30|       40|
+6420       ccccctgccataacccaataccaaacgcccctcttcgtctgatccgtcc
+6414       ccccctgccataacccaataccaaacgcccctcttcgtctgatccgtcc
+                                                            
+                  10|       20|       30|       40|
+6469       taatcacagcagtcctacttctcctatctctcccagtcctagctgctgg
+6463       taatcacagcagtcctacttctcctatctctcccagtcctagctgctgg
+                                                            
+                  10|       20|       30|       40|
+6518       catcactatactactaacagaccgcaacctcaacaccaccttcttcgac
+6512       catcactatactactaacagaccgcaacctcaacaccaccttcttcgac
+                                                            
+                  10|       20|       30|       40|
+6567       cccgccggaggaggagaccccattctataccaacacctattctgatttt
+6561       cccgccggaggaggagaccccattctataccaacacctattctgatttt
+                                                            
+                  10|       20|       30|       40|
+6616       tcggtcaccctgaagtttatattcttatcctaccaggcttcggaataat
+6610       tcggtcaccctgaagtttatattcttatcctaccaggcttcggaataat
+                                                            
+                  10|       20|       30|       40|
+6665       ctcccatattgtaacttactactccggaaaaaaagaaccatttggatac
+6659       ctcccatattgtaacttactactccggaaaaaaagaaccatttggatac
+                                                            
+                  10|       20|       30|       40|
+6714       ataggtatggtctgagctatgatatcaattggcttcctagggtttatcg
+6708       ataggtatggtctgagctatgatatcaattggcttcctagggtttatcg
+                                                            
+                  10|       20|       30|       40|
+6763       tgtgagcacaccatatatttacagtaggaatagacgtagacacacgagc
+6757       tgtgagcacaccatatatttacagtaggaatagacgtagacacacgagc
+                                                            
+                  10|       20|       30|       40|
+6812       atatttcacctccgctaccataatcatcgctatccccaccggcgtcaaa
+6806       atatttcacctccgctaccataatcatcgctatccccaccggcgtcaaa
+                                                            
+                  10|       20|       30|       40|
+6861       gtatttagctgactcgccacactccacggaagcaatatgaaatgatctg
+6855       gtatttagctgactcgccacactccacggaagcaatatgaaatgatctg
+                                                            
+                  10|       20|       30|       40|
+6910       ctgcagtgctctgagccctaggattcatctttcttttcaccgtaggtgg
+6904       ctgcagtgctctgagccctaggattcatctttcttttcaccgtaggtgg
+                                                            
+                  10|       20|       30|       40|
+6959       cctgactggcattgtattagcaaactcatcactagacatcgtactacac
+6953       cctgactggcattgtattagcaaactcatcactagacatcgtactacac
+                                                            
+                  10|       20|       30|       40|
+7008       gacacgtactacgttgtagcccacttccactatgtcctatcaataggag
+7002       gacacgtactacgttgtagcccacttccactatgtcctatcaataggag
+                                                            
+                  10|       20|       30|       40|
+7057       ctgtatttgccatcataggaggcttcattcactgatttcccctattctc
+7051       ctgtatttgccatcataggaggcttcattcactgatttcccctattctc
+                                                            
+                  10|       20|       30|       40|
+7106       aggctacaccctagaccaaacctacgccaaaatccatttcactatcata
+7100       aggctacaccctagaccaaacctacgccaaaatccatttcactatcata
+                                                            
+                  10|       20|       30|       40|
+7155       ttcatcggcgtaaatctaactttcttcccacaacactttctcggcctat
+7149       ttcatcggcgtaaatctaactttcttcccacaacactttctcggcctat
+                                                            
+                  10|       20|       30|       40|
+7204       ccggaatgccccgacgttactcggactaccccgatgcatacaccacatg
+7198       ccggaatgccccgacgttactcggactaccccgatgcatacaccacatg
+                                                            
+                  10|       20|       30|       40|
+7253       aaacatcctatcatctgtaggctcattcatttctctaacagcagtaata
+7247       aaacatcctatcatctgtaggctcattcatttctctaacagcagtaata
+                                                            
+                  10|       20|       30|       40|
+7302       ttaataattttcatgatttgagaagccttcgcttcgaagcgaaaagtcc
+7296       ttaataattttcatgatttgagaagccttcgcttcgaagcgaaaagtcc
+                                                            
+                  10|       20|       30|       40|
+7351       taatagtagaagaaccctccataaacctggagtgactatatggatgccc
+7345       taatagtagaagaaccctccataaacctggagtgactatatggatgccc
+                                                            
+                  10|       20|       30|       40|
+7400       cccaccctaccacacattcgaagaacccgtatacataaaatctagacaa
+7394       cccaccctaccacacattcgaagaacccgtatacataaaatctagacaa
+                                                            
+                  10|       20|       30|       40|
+7449       aaaaggaaggaatcgaaccccccaaagctggtttcaagccaaccccatg
+7443       aaaaggaaggaatcgaaccccccaaagctggtttcaagccaaccccatg
+                                                            
+                  10|       20|       30|       40|
+7498       gcctccatgactttttcaaaaaggtattagaaaaaccatttcataactt
+7492       gcctccatgactttttcaaaaaggtattagaaaaaccatttcataactt
+                                                            
+                  10|       20|       30|       40|
+7547       tgtcaaagttaaattataggctaaatcctatatatcttaatggcacatg
+7541       tgtcaaagttaaattataggctaaatcctatatatcttaatggcacatg
+                                                            
+                  10|       20|       30|       40|
+7596       cagcgcaagtaggtctacaagacgctacttcccctatcatagaagagct
+7590       cagcgcaagtaggtctacaagacgctact..........tagaagagct
+                                        ^^^^^^^^^^          
+                  10|       20|       30|       40|
+7645       tatcacctttcatgatcacgccctcataatcattttccttatctgcttc
+7629       tatcacctttcatgatcacgccctcataatcattttccttatctgcttc
+                                                            
+                  10|       20|       30|       40|
+7694       ctagtcctgtatgcccttttcctaacactcacaacaaaactaactaata
+7678       ctagtcctgtatgcccttttcctaacactcacaacaaaactaactaata
+                                                            
+                  10|       20|       30|       40|
+7743       ctaacatctcagacgctcaggaaatagaaaccgtctgaactatcctgcc
+7727       ctaacatctcagacgctcaggaaatagaaaccgtctgaactatcctgcc
+                                                            
+                  10|       20|       30|       40|
+7792       cgccatcatcctagtcctcatcgccctcccatccctacgcatcctttac
+7776       cgccatcatcctagtcctcatcgccctcccatccctacgcatcctttac
+                                                            
+                  10|       20|       30|       40|
+7841       ataacagacgaggtcaacgatccctcccttaccatcaaatcaattggcc
+7825       ataacagacgaggtcaacgatccctcccttaccatcaaatcaattggcc
+                                                            
+                  10|       20|       30|       40|
+7890       accaatggtactgaacctacgagtacaccgactacggcggactaatctt
+7874       accaatggtactgaacctacgagtacaccgactacggcggactaatctt
+                                                            
+                  10|       20|       30|       40|
+7939       caactcctacatacttcccccattattcctagaaccaggcgacctgcga
+7923       caactcctacatacttcccccattattcctagaaccaggcgacctgcga
+                                                            
+                  10|       20|       30|       40|
+7988       ctccttgacgttgacaatcgagtagtactcccgattgaagcccccattc
+7972       ctccttgacgttgacaatcgagtagtactcccgattgaagcccccattc
+                                                            
+                  10|       20|       30|       40|
+8037       gtataataattacatcacaagacgtcttgcactcatgagctgtccccac
+8021       gtataataattacatcacaagacgtcttgcactcatgagctgtccccac
+                                                            
+                  10|       20|       30|       40|
+8086       attaggcttaaaaacagatgcaattcccggacgtctaaaccaaaccact
+8070       attaggcttaaaaacagatgcaattcccggacgtctaaaccaaaccact
+                                                            
+                  10|       20|       30|       40|
+8135       ttcaccgctacacgaccgggggtatactacggtcaatgctctgaaatct
+8119       ttcaccgctacacgaccgggggtatactacggtcaatgctctgaaatct
+                                                            
+                  10|       20|       30|       40|
+8184       gtggagcaaaccacagtttcatgcccatcgtcctagaattaattcccct
+8168       gtggagcaaaccacagtttcatgcccatcgtcctagaattaattcccct
+                                                            
+                  10|       20|       30|       40|
+8233       aaaaatctttgaaatagggcccgtatttaccctatagcaccccctctac
+8217       aaaaatctttgaaatagggcccgtatttaccctatagcaccccctctac
+                                                            
+                  10|       20|       30|       40|
+8282       cccctctagagcccactgtaaagctaacttagcattaaccttttaagtt
+8266       cccctctagagcccactgtaaagctaacttagcattaaccttttaagtt
+                                                            
+                  10|       20|       30|       40|
+8331       aaagattaagagaaccaacacctctttacagtgaaatgccccaactaaa
+8315       aaagattaagagaaccaacacctctttacagtgaaatgccccaactaaa
+                                                            
+                  10|       20|       30|       40|
+8380       tactaccgtatggcccaccataattacccccatactccttacactattc
+8364       tactaccgtatggcccaccataattacccccatactccttacactattc
+                                                            
+                  10|       20|       30|       40|
+8429       ctcatcacccaactaaaaatattaaacacaaactaccacctacctccct
+8413       ctcatcacccaactaaaaatattaaacacaaactaccacctacctccct
+                                                            
+                  10|       20|       30|       40|
+8478       caccaaagcccataaaaataaaaaattataacaaaccctgagaaccaaa
+8462       caccaaagcccataaaaataaaaaattataacaaaccctgagaaccaaa
+                                                            
+                  10|       20|       30|       40|
+8527       atgaacgaaaatctgttcgcttcattcattgcccccacaatcctaggcc
+8511       atgaacgaaaatctgttcgcttcattcattgcccccacaatcctaggcc
+                                                            
+                  10|       20|       30|       40|
+8576       tacccgccgcagtactgatcattctatttccccctctattgatccccac
+8560       tacccgccgcagtactgatcattctatttccccctctattgatccccac
+                                                            
+                  10|       20|       30|       40|
+8625       ctccaaatatctcatcaacaaccgactaatcaccacccaacaatgacta
+8609       ctccaaatatctcatcaacaaccgactaatcaccacccaacaatgacta
+                                                            
+                  10|       20|       30|       40|
+8674       atcaaactaacctcaaaacaaatgataaccatacacaacactaaaggac
+8658       atcaaactaacctcaaaacaaatgataaccatacacaacactaaaggac
+                                                            
+                  10|       20|       30|       40|
+8723       gaacctgatctcttatactagtatccttaatcatttttattgccacaac
+8707       gaacctgatctcttatactagtatccttaatcatttttattgccacaac
+                                                            
+                  10|       20|       30|       40|
+8772       taacctcctcggactcctgcctcactcatttacaccaaccacccaacta
+8756       taacctcctcggactcctgcctcactcatttacaccaaccacccaacta
+                                                            
+                  10|       20|       30|       40|
+8821       tctataaacctagccatggccatccccttatgagcgggcacagtgatta
+8805       tctataaacctagccatggccatccccttatgagcgggcacagtgatta
+                                                            
+                  10|       20|       30|       40|
+8870       taggctttcgctctaagattaaaaatgccctagcccacttcttaccaca
+8854       taggctttcgctctaagattaaaaatgccctagcccacttcttaccaca
+                                                            
+                  10|       20|       30|       40|
+8919       aggcacacctacaccccttatccccatactagttattatcgaaaccatc
+8903       aggcacacctacaccccttatccccatactagttattatcgaaaccatc
+                                                            
+                  10|       20|       30|       40|
+8968       agcctactcattcaaccaatagccctggccgtacgcctaaccgctaaca
+8952       agcctactcattcaaccaatagccctggccgtacgcctaaccgctaaca
+                                                            
+                  10|       20|       30|       40|
+9017       ttactgcaggccacctactcatgcacctaattggaagcgccaccctagc
+9001       ttactgcaggccacctactcatgcacctaattggaagcgccaccctagc
+                                                            
+                  10|       20|       30|       40|
+9066       aatatcaaccattaaccttccctctacacttatcatcttcacaattcta
+9050       aatatcaaccattaaccttccctctacacttatcatcttcacaattcta
+                                                            
+                  10|       20|       30|       40|
+9115       attctactgactatcctagaaatcgctgtcgccttaatccaagcctacg
+9099       attctactgactatcctagaaatcgctgtcgccttaatccaagcctacg
+                                                            
+                  10|       20|       30|       40|
+9164       ttttcacacttctagtaagcctctacctgcacgacaacacataatgacc
+9148       ttttcacacttctagtaagcctctacctgcacgacaacacataatgacc
+                                                            
+                  10|       20|       30|       40|
+9213       caccaatcacatgcctatcatatagtaaaacccagcccatgacccctaa
+9197       caccaatcacatgcctatcatatagtaaaacccagcccatgacccctaa
+                                                            
+                  10|       20|       30|       40|
+9262       caggggccctctcagccctcctaatgacctccggcctagccatgtgatt
+9246       caggggccctctcagccctcctaatgacctccggcctagccatgtgatt
+                                                            
+                  10|       20|       30|       40|
+9311       tcacttccactccataacgctcctcatactaggcctactaaccaacaca
+9295       tcacttccactccataacgctcctcatactaggcctactaaccaacaca
+                                                            
+                  10|       20|       30|       40|
+9360       ctaaccatataccaatgatggcgcgatgtaacacgagaaagcacatacc
+9344       ctaaccatataccaatgatggcgcgatgtaacacgagaaagcacatacc
+                                                            
+                  10|       20|       30|       40|
+9409       aaggccaccacacaccacctgtccaaaaaggccttcgatacgggataat
+9393       aaggccaccacacaccacctgtccaaaaaggccttcgatacgggataat
+                                                            
+                  10|       20|       30|       40|
+9458       cctatttattacctcagaagtttttttcttcgcaggatttttctgagcc
+9442       cctatttattacctcagaagtttttttcttcgcaggatttttctgagcc
+                                                            
+                  10|       20|       30|       40|
+9507       ttttaccactccagcctagcccctaccccccaattaggagggcactggc
+9491       ttttaccactccagcctagcccctaccccccaattaggagggcactggc
+                                                            
+                  10|       20|       30|       40|
+9556       ccccaacaggcatcaccccgctaaatcccctagaagtcccactcctaaa
+9540       ccccaacaggcatcaccccgctaaatcccctagaagtcccactcctaaa
+                                                            
+                  10|       20|       30|       40|
+9605       cacatccgtattactcgcatcaggagtatcaatcacctgagctcaccat
+9589       cacatccgtattactcgcatcaggagtatcaatcacctgagctcaccat
+                                                            
+                  10|       20|       30|       40|
+9654       agtctaatagaaaacaaccgaaaccaaataattcaagcactgcttatta
+9638       agtctaatagaaaacaaccgaaaccaaataattcaagcactgcttatta
+                                                            
+                  10|       20|       30|       40|
+9703       caattttactgggtctctattttaccctcctacaagcctcagagtactt
+9687       caattttactgggtctctattttaccctcctacaagcctcagagtactt
+                                                            
+                  10|       20|       30|       40|
+9752       cgagtctcccttcaccatttccgacggcatctacggctcaacatttttt
+9736       cgagtctcccttcaccatttccgacggcatctacggctcaacatttttt
+                                                            
+                  10|       20|       30|       40|
+9801       gtagccacaggcttccacggacttcacgtcattattggctcaactttcc
+9785       gtagccacaggcttccacggacttcacgtcattattggctcaactttcc
+                                                            
+                  10|       20|       30|       40|
+9850       tcactatctgcttcatccgccaactaatatttcactttacatccaaaca
+9834       tcactatctgcttcatccgccaactaatatttcactttacatccaaaca
+                                                            
+                  10|       20|       30|       40|
+9899       tcactttggcttcgaagccgccgcctgatactggcattttgtagatgtg
+9883       tcactttggcttcgaagccgccgcctgatactggcattttgtagatgtg
+                                                            
+                  10|       20|       30|       40|
+9948       gtttgactatttctgtatgtctccatctattgatgagggtcttactctt
+9932       gtttgactatttctgtatgtctccatctattgatgagggtcttactctt
+                                                            
+                  10|       20|       30|       40|
+9997       ttagtataaatagtaccgttaacttccaattaactagttttgacaacat
+9981       ttagtataaatagtaccgttaacttccaattaactagttttgacaacat
+                                                            
+                  10|       20|       30|       40|
+10046      tcaaaaaagagtaataaacttcgccttaattttaataatcaacaccctc
+10030      tcaaaaaagagtaataaacttcgccttaattttaataatcaacaccctc
+                                                            
+                  10|       20|       30|       40|
+10095      ctagccttactactaataattattacattttgactaccacaactcaacg
+10079      ctagccttactactaataattattacattttgactaccacaactcaacg
+                                                            
+                  10|       20|       30|       40|
+10144      gctacatagaaaaatccaccccttacgagtgcggcttcgaccctatatc
+10128      gctacatagaaaaatccaccccttacgagtgcggcttcgaccctatatc
+                                                            
+                  10|       20|       30|       40|
+10193      ccccgcccgcgtccctttctccataaaattcttcttagtagctattacc
+10177      ccccgcccgcgtccctttctccataaaattcttcttagtagctattacc
+                                                            
+                  10|       20|       30|       40|
+10242      ttcttattatttgatctagaaattgccctccttttacccctaccatgag
+10226      ttcttattatttgatctagaaattgccctccttttacccctaccatgag
+                                                            
+                  10|       20|       30|       40|
+10291      ccctacaaacaactaacctgccactaatagttatgtcatccctcttatt
+10275      ccctacaaacaactaacctgccactaatagttatgtcatccctcttatt
+                                                            
+                  10|       20|       30|       40|
+10340      aatcatcatcctagccctaagtctggcctatgagtgactacaaaaagga
+10324      aatcatcatcctagccctaagtctggcctatgagtgactacaaaaagga
+                                                            
+                  10|       20|       30|       40|
+10389      ttagactgaaccgaattggtatatagtttaaacaaaacgaatgatttcg
+10373      ttagactgaaccgaattggtatatagtttaaacaaaacgaatgatttcg
+                                                            
+                  10|       20|       30|       40|
+10438      actcattaaattatgataatcatatttaccaaatgcccctcatttacat
+10422      actcattaaattatgataatcatatttaccaaatgcccctcatttacat
+                                                            
+                  10|       20|       30|       40|
+10487      aaatattatactagcatttaccatctcacttctaggaatactagtatat
+10471      aaatattatactagcatttaccatctcacttctaggaatactagtatat
+                                                            
+                  10|       20|       30|       40|
+10536      cgctcacacctcatatcctccctactatgcctagaaggaataatactat
+10520      cgctcacacctcatatcctccctactatgcctagaaggaataatactat
+                                                            
+                  10|       20|       30|       40|
+10585      cgctgttcattatagctactctcataaccctcaacacccactccctctt
+10569      cgctgttcattatagctactctcataaccctcaacacccactccctctt
+                                                            
+                  10|       20|       30|       40|
+10634      agccaatattgtgcctattgccatactagtctttgccgcctgcgaagca
+10618      agccaatattgtgcctattgccatactagtctttgccgcctgcgaagca
+                                                            
+                  10|       20|       30|       40|
+10683      gcggtgggcctagccctactagtctcaatctccaacacatatggcctag
+10667      gcggtgggcctagccctactagtctcaatctccaacacatatggcctag
+                                                            
+                  10|       20|       30|       40|
+10732      actacgtacataacctaaacctactccaatgctaaaactaatcgtccca
+10716      actacgtacataacctaaacctactccaatgctaaaactaatcgtccca
+                                                            
+                  10|       20|       30|       40|
+10781      acaattatattactaccactgacatgactttccaaaaaacacataattt
+10765      acaattatattactaccactgacatgactttccaaaaaacacataattt
+                                                            
+                  10|       20|       30|       40|
+10830      gaatcaacacaaccacccacagcctaattattagcatcatccctctact
+10814      gaatcaacacaaccacccacagcctaattattagcatcatccctctact
+                                                            
+                  10|       20|       30|       40|
+10879      attttttaaccaaatcaacaacaacctatttagctgttccccaaccttt
+10863      attttttaaccaaatcaacaacaacctatttagctgttccccaaccttt
+                                                            
+                  10|       20|       30|       40|
+10928      tcctccgaccccctaacaacccccctcctaatactaactacctgactcc
+10912      tcctccgaccccctaacaacccccctcctaatactaactacctgactcc
+                                                            
+                  10|       20|       30|       40|
+10977      tacccctcacaatcatggcaagccaacgccacttatccagtgaaccact
+10961      tacccctcacaatcatggcaagccaacgccacttatccagtgaaccact
+                                                            
+                  10|       20|       30|       40|
+11026      atcacgaaaaaaactctacctctctatactaatctccctacaaatctcc
+11010      atcacgaaaaaaactctacctctctatactaatctccctacaaatctcc
+                                                            
+                  10|       20|       30|       40|
+11075      ttaattataacattcacagccacagaactaatcatattttatatcttct
+11059      ttaattataacattcacagccacagaactaatcatattttatatcttct
+                                                            
+                  10|       20|       30|       40|
+11124      tcgaaaccacacttatccccaccttggctatcatcacccgatgaggcaa
+11108      tcgaaaccacacttatccccaccttggctatcatcacccgatgaggcaa
+                                                            
+                  10|       20|       30|       40|
+11173      ccagccagaacgcctgaacgcaggcacatacttcctattctacacccta
+11157      ccagccagaacgcctgaacgcaggcacatacttcctattctacacccta
+                                                            
+                  10|       20|       30|       40|
+11222      gtaggctcccttcccctactcatcgcactaatttacactcacaacaccc
+11206      gtaggctcccttcccctactcatcgcactaatttacactcacaacaccc
+                                                            
+                  10|       20|       30|       40|
+11271      taggctcactaaacattctactactcactctcactgcccaagaactatc
+11255      taggctcactaaacattctactactcactctcactgcccaagaactatc
+                                                            
+                  10|       20|       30|       40|
+11320      aaactcctgagccaacaacttaatatgactagcttacacaatagctttt
+11304      aaactcctgagccaacaacttaatatgactagcttacacaatagctttt
+                                                            
+                  10|       20|       30|       40|
+11369      atagtaaagatacctctttacggactccacttatgactccctaaagccc
+11353      atagtaaagatacctctttacggactccacttatgactccctaaagccc
+                                                            
+                  10|       20|       30|       40|
+11418      atgtcgaagcccccatcgctgggtcaatagtacttgccgcagtactctt
+11402      atgtcgaagcccccatcgctgggtcaatagtacttgccgcagtactctt
+                                                            
+                  10|       20|       30|       40|
+11467      aaaactaggcggctatggtataatacgcctcacactcattctcaacccc
+11451      aaaactaggcggctatggtataatacgcctcacactcattctcaacccc
+                                                            
+                  10|       20|       30|       40|
+11516      ctgacaaaacacatagcctaccccttccttgtactatccctatgaggca
+11500      ctgacaaaacacatagcctaccccttccttgtactatccctatgaggca
+                                                            
+                  10|       20|       30|       40|
+11565      taattataacaagctccatctgcctacgacaaacagacctaaaatcgct
+11549      taattataacaagctccatctgcctacgacaaacagacctaaaatcgct
+                                                            
+                  10|       20|       30|       40|
+11614      cattgcatactcttcaatcagccacatagccctcgtagtaacagccatt
+11598      cattgcatactcttcaatcagccacatagccctcgtagtaacagccatt
+                                                            
+                  10|       20|       30|       40|
+11663      ctcatccaaaccccctgaagcttcaccggcgcagtcattctcataatcg
+11647      ctcatccaaac............caccggcgcagtcattctcataatcg
+                      ^^^^^^^^^^^^                          
+                  10|       20|       30|       40|
+11712      cccacgggcttacatcctcattactattctgcctagcaaactcaaacta
+11684      cccacgggcttacatcctcattactattctgcctagcaaactcaaacta
+                                                            
+                  10|       20|       30|       40|
+11761      cgaacgcactcacagtcgcatcataatcctctctcaaggacttcaaact
+11733      cgaacgcactcacagtcgcatcataatcctctctcaaggacttcaaact
+                                                            
+                  10|       20|       30|       40|
+11810      ctactcccactaatagctttttgatgacttctagcaagcctcgctaacc
+11782      ctactcccactaatagctttttgatgacttctagcaagcctcgctaacc
+                                                            
+                  10|       20|       30|       40|
+11859      tcgccttaccccccactattaacctactgggagaactctctgtgctagt
+11831      tcgccttaccccccactattaacctactgggagaactctctgtgctagt
+                                                            
+                  10|       20|       30|       40|
+11908      aaccacgttctcctgatcaaatatcactctcctacttacaggactcaac
+11880      aaccacgttctcctgatcaaatatcactctcctacttacaggactcaac
+                                                            
+                  10|       20|       30|       40|
+11957      atactagtcacagccctatactccctctacatatttaccacaacacaat
+11929      atactagtcacagccctatactccctctacatatttaccacaacacaat
+                                                            
+                  10|       20|       30|       40|
+12006      ggggctcactcacccaccacattaacaacataaaaccctcattcacacg
+11978      ggggctcactcacccaccacattaacaacataaaaccctcattcacacg
+                                                            
+                  10|       20|       30|       40|
+12055      agaaaacaccctcatgttcatacacctatcccccattctcctcctatcc
+12027      agaaaacaccctcatgttcatacacctatcccccattctcctcctatcc
+                                                            
+                  10|       20|       30|       40|
+12104      ctcaaccccgacatcattaccgggttttcctcttgtaaatatagtttaa
+12076      ctcaaccccgacatcattaccgggttttcctcttgtaaatatagtttaa
+                                                            
+                  10|       20|       30|       40|
+12153      ccaaaacatcagattgtgaatctgacaacagaggcttacgaccccttat
+12125      ccaaaacatcagattgtgaatctgacaacagaggcttacgaccccttat
+                                                            
+                  10|       20|       30|       40|
+12202      ttaccgagaaagctcacaagaactgctaactcatgcccccatgtctaac
+12174      ttaccgagaaagctcacaagaactgctaactcatgcccccatgtctaac
+                                                            
+                  10|       20|       30|       40|
+12251      aacatggctttctcaacttttaaaggataacagctatccattggtctta
+12223      aacatggctttctcaacttttaaaggataacagctatccattggtctta
+                                                            
+                  10|       20|       30|       40|
+12300      ggccccaaaaattttggtgcaactccaaataaaagtaataaccatgcac
+12272      ggccccaaaaattttggtgcaactccaaataaaagtaataaccatgcac
+                                                            
+                  10|       20|       30|       40|
+12349      actactataaccaccctaaccctgacttccctaattccccccatcctta
+12321      actactataaccaccctaaccctgacttccctaattccccccatcctta
+                                                            
+                  10|       20|       30|       40|
+12398      ccaccctcgttaaccctaacaaaaaaaactcatacccccattatgtaaa
+12370      ccaccctcgttaaccctaacaaaaaaaactcatacccccattatgtaaa
+                                                            
+                  10|       20|       30|       40|
+12447      atccattgtcgcatccacctttattatcagtctcttccccacaacaata
+12419      atccattgtcgcatccacctttattatcagtctcttccccacaacaata
+                                                            
+                  10|       20|       30|       40|
+12496      ttcatgtgcctagaccaagaagttattatctcgaactgacactgagcca
+12468      ttcatgtgcctagaccaagaagttattatctcgaactgacactgagcca
+                                                            
+                  10|       20|       30|       40|
+12545      caacccaaacaacccagctctccctaagcttcaaactagactacttctc
+12517      caacccaaacaacccagctctccctaagcttcaaactagactacttctc
+                                                            
+                  10|       20|       30|       40|
+12594      cataatattcatccctgtagcattgttcgttacatggtccatcatagaa
+12566      cataatattcatccctgtagcattgttcgttacatggtccatcatagaa
+                                                            
+                  10|       20|       30|       40|
+12643      ttctcactgtgatatataaactcagacccaaacattaatcagttcttca
+12615      ttctcactgtgatatataaactcagacccaaacattaatcagttcttca
+                                                            
+                  10|       20|       30|       40|
+12692      aatatctactcatcttcctaattaccatactaatcttagttaccgctaa
+12664      aatatctactcatcttcctaattaccatactaatcttagttaccgctaa
+                                                            
+                  10|       20|       30|       40|
+12741      caacctattccaactgttcatcggctgagagggcgtaggaattatatcc
+12713      caacctattccaactgttcatcggctgagagggcgtaggaattatatcc
+                                                            
+                  10|       20|       30|       40|
+12790      ttcttgctcatcagttgatgatacgcccgagcagatgccaacacagcag
+12762      ttcttgctcatcagttgatgatacgcccgagcagatgccaacacagcag
+                                                            
+                  10|       20|       30|       40|
+12839      ccattcaagcaatcctatacaaccgtatcggcgatatcggtttcatcct
+12811      ccattcaagcaatcctatacaaccgtatcggcgatatcggtttcatcct
+                                                            
+                  10|       20|       30|       40|
+12888      cgccttagcatgatttatcctacactccaactcatgagacccacaacaa
+12860      cgccttagcatgatttatcctacactccaactcatgagacccacaacaa
+                                                            
+                  10|       20|       30|       40|
+12937      atagcccttctaaacgctaatccaagcctcaccccactactaggcctcc
+12909      atagcccttctaaacgctaatccaagcctcaccccactactaggcctcc
+                                                            
+                  10|       20|       30|       40|
+12986      tcctagcagcagcaggcaaatcagcccaattaggtctccacccctgact
+12958      tcctagcagcagcaggcaaatcagcccaattaggtctccacccctgact
+                                                            
+                  10|       20|       30|       40|
+13035      cccctcagccatagaaggccccaccccagtctcagccctactccactca
+13007      cccctcagccatagaaggccccaccccagtctcagccctactccactca
+                                                            
+                  10|       20|       30|       40|
+13084      agcactatagttgtagcaggaatcttcttactcatccgcttccaccccc
+13056      agcactatagttgtagcaggaatcttcttactcatccgcttccaccccc
+                                                            
+                  10|       20|       30|       40|
+13133      tagcagaaaatagcccactaatccaaactctaacactatgcttaggcgc
+13105      tagcagaaaatagcccactaatccaaactctaacactatgcttaggcgc
+                                                            
+                  10|       20|       30|       40|
+13182      tatcaccactctgttcgcagcagtctgcgcccttacacaaaatgacatc
+13154      tatcaccactctgttcgcagcagtctgcgcccttacacaaaatgacatc
+                                                            
+                  10|       20|       30|       40|
+13231      aaaaaaatcgtagccttctccacttcaagtcaactaggactcataatag
+13203      aaaaaaatcgtagccttctccacttcaagtcaactaggactcataatag
+                                                            
+                  10|       20|       30|       40|
+13280      ttacaatcggcatcaaccaaccacacctagcattcctgcacatctgtac
+13252      ttacaatcggcatcaaccaaccacacctagcattcctgcacatctgtac
+                                                            
+                  10|       20|       30|       40|
+13329      ccacgccttcttcaaagccatactatttatgtgctccgggtccatcatc
+13301      ccacgccttcttcaaagccatactatttatgtgctccgggtccatcatc
+                                                            
+                  10|       20|       30|       40|
+13378      cacaaccttaacaatgaacaagatattcgaaaaataggaggactactca
+13350      cacaaccttaacaatgaacaagatattcgaaaaataggaggactactca
+                                                            
+                  10|       20|       30|       40|
+13427      aaaccatacctctcacttcaacctccctcaccattggcagcctagcatt
+13399      aaaccatacctctcacttcaacctccctcaccattggcagcctagcatt
+                                                            
+                  10|       20|       30|       40|
+13476      agcaggaatacctttcctcacaggtttctactccaaagaccacatcatc
+13448      agcaggaatacctttcctcacaggtttctactccaaagaccacatcatc
+                                                            
+                  10|       20|       30|       40|
+13525      gaaaccgcaaacatatcatacacaaacgcctgagccctatctattactc
+13497      gaaaccgcaaacatatcatacacaaacgcctgagccctatctattactc
+                                                            
+                  10|       20|       30|       40|
+13574      tcatcgctacctccctgacaagcgcctatagcactcgaataattcttct
+13546      tcatcgctacctccctgacaagcgcctatagcactcgaataattcttct
+                                                            
+                  10|       20|       30|       40|
+13623      caccctaacaggtcaacctcgcttccccacccttactaacattaacgaa
+13595      caccctaacaggtcaacctcgcttccccacccttactaacattaacgaa
+                                                            
+                  10|       20|       30|       40|
+13672      aataaccccaccctactaaaccccattaaacgcctggcagccggaagcc
+13644      aataaccccaccctactaaaccccattaaacgcctggcagccggaagcc
+                                                            
+                  10|       20|       30|       40|
+13721      tattcgcaggatttctcattactaacaacatttcccccgcatccccctt
+13693      tattcgcaggatttctcattactaacaacatttcccccgcatccccctt
+                                                            
+                  10|       20|       30|       40|
+13770      ccaaacaacaatccccctctacctaaaactcacagccctcgctgtcact
+13742      ccaaacaacaatccccctctacctaaaactcacagccctcgctgtcact
+                                                            
+                  10|       20|       30|       40|
+13819      ttcctaggacttctaacagccctagacctcaactacctaaccaacaaac
+13791      ttcctaggacttctaacagccctagacctcaactacctaaccaacaaac
+                                                            
+                  10|       20|       30|       40|
+13868      ttaaaataaaatccccactatgcacattttatttctccaacatactcgg
+13840      ttaaaataaaatccccactatgcacattttatttctccaacatactcgg
+                                                            
+                  10|       20|       30|       40|
+13917      attctaccctagcatcacacaccgcacaatcccctatctaggccttctt
+13889      attctaccctagcatcacacaccgcacaatcccctatctaggccttctt
+                                                            
+                  10|       20|       30|       40|
+13966      acgagccaaaacctgcccctactcctcctagacctaacctgactagaaa
+13938      acgagccaaaacctgcccctactcctcctagacctaacctgactagaaa
+                                                            
+                  10|       20|       30|       40|
+14015      agctattacctaaaacaatttcacagcaccaaatctccacctccatcat
+13987      agctattacctaaaacaatttcacagcaccaaatctccacctccatcat
+                                                            
+                  10|       20|       30|       40|
+14064      cacctcaacccaaaaaggcataattaaactttacttcctctctttcttc
+14036      cacctcaacccaaaaaggcataattaaactttacttcctctctttcttc
+                                                            
+                  10|       20|       30|       40|
+14113      ttcccactcatcctaaccctactcctaatcacataacctattcccccga
+14085      ttcccactcatcctaaccctactcctaatcacataacctattcccccga
+                                                            
+                  10|       20|       30|       40|
+14162      gcaatctcaattacaatatatacaccaacaaacaatgttcaaccagtaa
+14134      gcaatctcaattacaatatatacaccaacaaacaatgttcaaccagtaa
+                                                            
+                  10|       20|       30|       40|
+14211      ctactactaatcaacgcccataatcatacaaagcccccgcaccaatagg
+14183      ctactactaatcaacgcccataatcatacaaagcccccgcaccaatagg
+                                                            
+                  10|       20|       30|       40|
+14260      atcctcccgaatcaaccctgacccctctccttcataaattattcagctt
+14232      atcctcccgaatcaaccctgacccctctccttcataaattattcagctt
+                                                            
+                  10|       20|       30|       40|
+14309      cctacactattaaagtttaccacaaccaccaccccatcatactctttca
+14281      cctacactattaaagtttaccacaaccaccaccccatcatactctttca
+                                                            
+                  10|       20|       30|       40|
+14358      cccacagcaccaatcctacctccatcgctaaccccactaaaacactcac
+14330      cccacagcaccaatcctacctccatcgctaaccccactaaaacactcac
+                                                            
+                  10|       20|       30|       40|
+14407      caagacctcaacccctgacccccatgcctcaggatactcctcaatagcc
+14379      caagacctcaacccctgacccccatgcctcaggatactcctcaatagcc
+                                                            
+                  10|       20|       30|       40|
+14456      atcgctgtagtatatccaaagacaaccatcattccccctaaataaatta
+14428      atcgctgtagtatatccaaagacaaccatcattccccctaaataaatta
+                                                            
+                  10|       20|       30|       40|
+14505      aaaaaactattaaacccatataacctcccccaaaattcagaataataac
+14477      aaaaaactattaaacccatataacctcccccaaaattcagaataataac
+                                                            
+                  10|       20|       30|       40|
+14554      acacccgaccacaccgctaacaatcaatactaaacccccataaatagga
+14526      acacccgaccacaccgctaacaatcaatactaaacccccataaatagga
+                                                            
+                  10|       20|       30|       40|
+14603      gaaggcttagaagaaaaccccacaaaccccattactaaacccacactca
+14575      gaaggcttagaagaaaaccccacaaaccccattactaaacccacactca
+                                                            
+                  10|       20|       30|       40|
+14652      acagaaacaaagcatacatcattattctcgcacggactacaaccacgac
+14624      acagaaacaaagcatacatcattattctcgcacggactacaaccac...
+                                                         ^^^
+                  10|       20|       30|       40|
+14701      caatgatatgaaaaaccatcgttgtatttcaactacaagaacaccaatg
+14670      ........tgaaaaaccatcgttgtatttcaactacaagaacaccaatg
+           ^^^^^^^^                                         
+                  10|       20|       30|       40|
+14750      accccaatacgcaaaactaaccccctaataaaattaattaaccactcat
+14711      accccaatacgcaaaactaaccccctaataaaattaattaaccactcat
+                                                            
+                  10|       20|       30|       40|
+14799      tcatcgacctccccaccccatccaacatctccgcatgatgaaacttcgg
+14760      tcatcgacctccccaccccatccaacatctccgcatgatgaaacttcgg
+                                                            
+                  10|       20|       30|       40|
+14848      ctcactccttggcgcctgcctgatcctccaaatcaccacaggactattc
+14809      ctcactccttggcgcctgcctgatcctccaaatcaccacaggactattc
+                                                            
+                  10|       20|       30|       40|
+14897      ctagccatgcactactcaccagacgcctcaaccgccttttcatcaatcg
+14858      ctagccatgcactactcaccagacgcctcaaccgccttttcatcaatcg
+                                                            
+                  10|       20|       30|       40|
+14946      cccacatcactcgagacgtaaattatggctgaatcatccgctaccttca
+14907      cccacatcactcgagacgtaaattatggctgaatcatccgctaccttca
+                                                            
+                  10|       20|       30|       40|
+14995      cgccaatggcgcctcaatattctttatctgcctcttcctacacatcggg
+14956      cgccaatggcgcctcaatattctttatctgcctcttcctacacatcggg
+                                                            
+                  10|       20|       30|       40|
+15044      cgaggcctatattacggatcatttctctactcagaaacctgaaacatcg
+15005      cgaggcctatattacggatcatttctctactcagaaacctgaaacatcg
+                                                            
+                  10|       20|       30|       40|
+15093      gcattatcctcctgcttgcaactatagcaacagccttcataggctatgt
+15054      gcattatcctcctgcttgcaactatagcaacagccttcataggctatgt
+                                                            
+                  10|       20|       30|       40|
+15142      cctcccgtgaggccaaatatcattctgaggggccacagtaattacaaac
+15103      cctcccgtgaggccaaatatcattctgaggggccacagtaattacaaac
+                                                            
+                  10|       20|       30|       40|
+15191      ttactatccgccatcccatacattgggacagacctagttcaatgaatct
+15152      ttactatccgccatcccatacattgggacagacctagttcaatgaatct
+                                                            
+                  10|       20|       30|       40|
+15240      gaggaggctactcagtagacagtcccaccctcacacgattctttacctt
+15201      gaggaggctactcagtagacagtcccaccctcacacgattctttacctt
+                                                            
+                  10|       20|       30|       40|
+15289      tcacttcatcttgcccttcattattgcagccctagcaacactccacctc
+15250      tcacttcatcttgcccttcattattgcagccctagcaacactccacctc
+                                                            
+                  10|       20|       30|       40|
+15338      ctattcttgcacgaaacgggatcaaacaaccccctaggaatcacctccc
+15299      ctattcttgcacgaaacgggatcaaacaaccccctaggaatcacctccc
+                                                            
+                  10|       20|       30|       40|
+15387      attccgataaaatcaccttccacccttactacacaatcaaagacgccct
+15348      attccgataaaatcaccttccacccttactacacaatcaaagacgccct
+                                                            
+                  10|       20|       30|       40|
+15436      cggcttacttctcttccttctctccttaatgacattaacactattctca
+15397      cggcttacttctcttccttctct...............cactattctca
+                                  ^^^^^^^^^^^^^^^           
+                  10|       20|       30|       40|
+15485      ccagacctcctaggcgacccagacaattataccctagccaaccccttaa
+15431      ccagacctcctaggcgacccagacaattataccctagccaaccccttaa
+                                                            
+                  10|       20|       30|       40|
+15534      acacccctccccacatcaagcccgaatgatatttcctattcgcctacac
+15480      acacccctccccacatcaagcccgaatgatatttcctattcgcctacac
+                                                            
+                  10|       20|       30|       40|
+15583      aattctccgatccgtccctaacaaactaggaggcgtccttgccctatta
+15529      aattctccgatccgtccctaacaaactaggaggcgtccttgccctatta
+                                                            
+                  10|       20|       30|       40|
+15632      ctatccatcctcatcctagcaataatccccatcctccatatatccaaac
+15578      ctatccatcctcatcctagcaataatccccatcctccatatatccaaac
+                                                            
+                  10|       20|       30|       40|
+15681      aacaaagcataatatttcgcccactaagccaatcactttattgactcct
+15627      aacaaagcataatatttcgcccactaagccaatcactttattgactcct
+                                                            
+                  10|       20|       30|       40|
+15730      agccgcagacctcctcattctaacctgaatcggaggacaaccagtaagc
+15676      agccgcagacctcctcattctaacctgaatcggaggacaaccagtaagc
+                                                            
+                  10|       20|       30|       40|
+15779      tacccttttaccatcattggacaagtagcatccgtactatacttcacaa
+15725      tacccttttaccatcattggacaagtagcatccgtactatacttcacaa
+                                                            
+                  10|       20|       30|       40|
+15828      caatcctaatcctaataccaactatctccctaattgaaaacaaaatact
+15774      caatcctaatcctaataccaactatctccctaattgaaaacaaaatact
+                                                            
+                  10|       20|       30|       40|
+15877      caaatgggcctgtccttgtagtataaactaatacaccagtcttgtaaac
+15823      caaatgggcctgtccttgtagtataaactaatacaccagtcttgtaaac
+                                                            
+                  10|       20|       30|       40|
+15926      cggagatgaaaacctttttccaaggacaaatcagagaaaaagtctttaa
+15872      cggagatgaaaacctttttccaaggacaaatcagagaaaaagtctttaa
+                                                            
+                  10|       20|       30|       40|
+15975      ctccaccattagcacccaaagctaagattctaatttaaactattctctg
+15921      ctccaccattagcacccaaagctaagattctaatttaaactattctctg
+                                                            
+                  10|       20|       30|       40|
+16024      ttctttcatggggaagcagatttgggtaccacccaagtattgactcacc
+15970      ttctttcatggggaagcagatttgggtaccacccaagtattgactcacc
+                                                            
+                  10|       20|       30|       40|
+16073      catcaacaaccgctatgtatttcgtacattactgccagccaccatgaat
+16019      catcaacaaccgctatgtatttcgtacattactgccagccaccatgaat
+                                                            
+                  10|       20|       30|       40|
+16122      attgtacggtaccataaatacttgaccacctgtagtacataaaaaccca
+16068      attgtacggtaccataaatacttgaccacctgtagtacataaaaaccca
+                                                            
+                  10|       20|       30|       40|
+16171      atccacatcaaaaccccctccccatgcttacaagcaagtacagcaatca
+16117      atccacatcaaaaccccctccccatgcttacaagcaagtacagcaatca
+                                                            
+                  10|       20|       30|       40|
+16220      accctcaactatcacacatcaactgcaactccaaagccacccctcaccc
+16166      accctcaactatcacacatcaactgcaactccaaagccacccctcaccc
+                                                            
+                  10|       20|       30|       40|
+16269      actaggataccaacaaacctacccacccttaacagtacatagtacataa
+16215      actaggataccaacaaacctacccacccttaacagtacatagtacataa
+                                                            
+                  10|       20|       30|       40|
+16318      agccatttaccgtacatagcacattacagtcaaatcccttctcgtcccc
+16264      agccatttaccgtacatagcacattacagtcaaatcccttctcgtcccc
+                                                            
+                  10|       20|       30|       40|
+16367      atggatgacccccctcagataggggtcccttgaccaccatcctccgtga
+16313      atggatgacccccctcagataggggtcccttgaccaccatcctccgtga
+                                                            
+                  10|       20|       30|       40|
+16416      aatcaatatcccgcacaagagtgctactctcctcgctccgggcccataa
+16362      aatcaatatcccgcacaagagtgctactctcctcgctccgggcccataa
+                                                            
+                  10|       20|       30|       40|
+16465      cacttgggggtagctaaagtgaactgtatccgacatctggttcctactt
+16411      cacttgggggtagctaaagtgaactgtatccgacatctggttcctactt
+                                                            
+                  10|       20|       30|       40|
+16514      cagggtcataaagcctaaatagcccacacgttccccttaaataagacat
+16460      cagggtcataaagcctaaatagcccacacgttccccttaaataagacat
+                                                            
+           
+16563      cacgatg
+16509      cacgatg
+                  
+
+--   END alignment [ +1 1 - 16569 | +1 1 - 16515 ]
+
+============================================================
