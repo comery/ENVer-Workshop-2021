@@ -168,13 +168,18 @@ assert的用法
 ```assert expression```
 
 等价于
-```if not expression:
-    raise AssertionError```
+
+```
+if not expression:
+    raise AssertionError
+```
 
 assert 后面也可以紧跟参数:
+
 ```assert expression [, arguments]```
 
 等价于
+
 ```
 if not expression:
     raise AssertionError(arguments)
